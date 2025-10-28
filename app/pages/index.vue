@@ -36,7 +36,7 @@ import { type RecipeResponse } from '../../types/types';
           </button>
         </div>
         <div class="flex-1 order-1 lg:order-2">
-          <NuxtImg
+          <img
             sizes="xs:100vw sm:667px"
             src="/nuxt-course-hero.png"
             format="webp"
