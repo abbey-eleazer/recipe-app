@@ -53,7 +53,7 @@ import { type RecipeResponse } from '../../types/types';
       <div v-if="!error" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8">
         <div v-for="recipe in data?.recipes" :key="recipe.id" class="flex flex-col shadow rounded-md">
           <NuxtImg
-            :src="recipe.image"
+            :src="`${recipe.image}`"
             sizes="xs:100vw sm:50vw lg:400px"
             format="webp"
             densities="x1"
